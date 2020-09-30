@@ -1,10 +1,26 @@
-<!doctype html>
-<html lang='en'>
-<head><title>Project 1</title>
-    <meta charset='utf-8'>
-</head>
-<body>
-    <h1>Project 1</h1>
+<?php
 
-</body>
-</html>
+$moves = ['Rock', 'Paper', 'Scissors'];
+
+$Player_A_Move = $moves[rand(0,2)];
+$Player_B_Move = $moves[rand(0,2)];
+
+$result =null;
+if ($Player_A_Move == $Player_B_Move){
+    $result = 'Tie';
+}elseif($Player_A_Move == 'Paper' and $Player_B_Move=='Rock' ){
+    $result ='Player A Wins';
+}elseif($Player_A_Move == 'Paper' and $Player_B_Move=='Scissors' ){
+    $result ='Player B Wins';
+}elseif($Player_A_Move == 'Rock' and $Player_B_Move=='Paper' ){
+    $result ='Player B Wins';
+}elseif($Player_A_Move == 'Rock' and $Player_B_Move=='Scissors' ){
+    $result ='Player A Wins';
+}elseif($Player_A_Move == 'Scissors' and $Player_B_Move=='Rock' ){
+    $result ='Player B Wins';
+}elseif($Player_A_Move == 'Scissors' and $Player_B_Move=='Paper' ){
+    $result ='Player A Wins';
+}
+
+
+require 'index_view.php';
