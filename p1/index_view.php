@@ -7,7 +7,8 @@
 </head>
 
 <body>
-    <h1>DGMD E-2 Project 1</h1>
+    <h2>DGMD E-2 Project 1</h2>
+    <h1>Rock, Paper, Scissors Game Simulator</h1>
     <b>Author:</b> Cesar Marroquin
     <h2> Mechanics</h2>
     <ul>
