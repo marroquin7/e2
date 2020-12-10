@@ -10,7 +10,7 @@
     <li>A tie is declared if both players throw the same move.</li>
     <li>Otherwise: Rock beats Scissors, Scissors beats Paper, Paper beats Rock.</li>
 </ul>
-<form method='POST' action="/play">
+<form method='POST' action="play">
     <input type='radio' name='player' value='Rock' id='Rock'>
     <label for='Rock'>Rock</label>
     <input type='radio' name='player' value='Paper' id='Paper'>
