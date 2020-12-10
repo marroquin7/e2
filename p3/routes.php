@@ -5,6 +5,5 @@ return [
     '/records' => ['RecordController', 'saveRecords'],
     '/play'=> ['PlayController', 'playgame'],
     '/record' => ['RecordController', 'display'],
-    '/p' => ['AppController', 'p'],
     
 ];
