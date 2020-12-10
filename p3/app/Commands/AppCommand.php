@@ -15,7 +15,7 @@ class AppCommand extends Command
             'player' => 'varchar(255)',
             'computer' => 'varchar(255)',
             'outcome' => 'varchar(255)',
-            'timestamp' => 'datetime',
+            'timestamp' => 'timestamp',
             
         ]);
         
