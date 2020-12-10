@@ -45,7 +45,8 @@ class PlayController extends Controller
             'outcome'=> $outcome,
         ];
         #insert $data to database
-        $this->app->db()->insert('rounds', $data);
+        dump($data);
+        dump($this->app->db()->insert('rounds', $data));
         
        
      
