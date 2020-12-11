@@ -6,7 +6,8 @@ class RecordController extends Controller
 {
     public function saveRecords()
     {   #display all records from the data base
-        dump($this->app->db()->all('rounds'));
+        #dump($this->app->db()->all('rounds'));
+       
         return $this->app->view('records', ['rounds'=> $this->app->db()->all('rounds')]);
     }
     public function display()
