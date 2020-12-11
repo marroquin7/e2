@@ -6,3 +6,13 @@ The goal of this software is to provide students an introduction to working with
 
 + __Documentation:__ <https://hesweb.dev/e2/notes/php/e2framework/installation>
 + __Guide:__ <https://hesweb.dev/e2/notes/php/frameworks/intro>
+# Project 3
++ By: Cesar Marroquin
++ Production URL: <http://e2p3.cmarroquin.me>
+
+## Outside resources
+N/A
+
+## Notes for instructor
+I based this project on the example you gave for Rock, Paper Scissors
+I utilized you method for Saving the data into my database 

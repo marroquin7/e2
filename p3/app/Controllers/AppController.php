@@ -20,7 +20,6 @@ class AppController extends Controller
      */
     public function play()
     {
-        $this->persistResults = true;
         $move = $this->app->input('player');
         $computer = $this->getRandomMove();
         if ($computer == $move) {
